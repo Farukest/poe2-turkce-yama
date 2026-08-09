@@ -13,8 +13,20 @@ try { Console.OutputEncoding = Encoding.UTF8; } catch { /* konsol yok */ }
 // Kurulum ve guncelleme AYNI islem oldugu icin tek program var; pencere
 // hangi ismi gosterecegine daha once kurulup kurulmadigina bakarak karar veriyor.
 if (args.Length == 0) {
-	ApplicationConfiguration.Initialize();
-	Application.Run(new Pencere());
+	// ARAYUZ ACIK BIR STA IS PARCACIGINDA CALISMALI.
+	//
+	// WinForms'un klasor ve dosya secicileri COM tabanli (IFileDialog) ve
+	// STA apartman sart kosuyor. Ust duzey deyimlerle uretilen giris
+	// noktasina [STAThread] konulamiyor; varsayilan MTA'da pencere acilir,
+	// duzgun gorunur, ama "Degistir..." dugmesine basildiginda secici
+	// donmez ve program kilitlenir. Testte birebir bu yasandi.
+	var arayuz = new Thread(() => {
+		ApplicationConfiguration.Initialize();
+		Application.Run(new Pencere());
+	});
+	arayuz.SetApartmentState(ApartmentState.STA);
+	arayuz.Start();
+	arayuz.Join();
 	return 0;
 }
 

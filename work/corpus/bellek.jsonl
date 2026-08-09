@@ -17030,7 +17030,7 @@
 {"en":"+{0}% Quality from Support","tr":"+%{0} Destekten Kalite"}
 {"en":"+{0}% Quality from Global Modifiers","tr":"+%{0} Küresel Değiştiricilerden Kalite"}
 {"en":"Cost & Reservation Multiplier","tr":"Maliyet ve Rezervasyon Çarpanı"}
-{"en":"Cost Multiplier","tr":"Maliyet Çarpani"}
+{"en":"Cost Multiplier","tr":"Maliyet Çarpanı"}
 {"en":"Reservation Multiplier","tr":"Rezervasyon Çarpani"}
 {"en":"Reservation","tr":"Rezervasyon"}
 {"en":"Cost","tr":"Maliyet"}
@@ -30695,10 +30695,10 @@
 {"en":"Trinkets","tr":"Süs Eşyaları"}
 {"en":"DivinationCards","tr":"KehanetKartları"}
 {"en":"Harbinger","tr":"Habercisi"}
-{"en":"[Sustained]","tr":"Sürekli[Sustained|Sustained]"}
+{"en":"[Sustained]","tr":"[Sustained|Sürekli]"}
 {"en":"[GainsStages|Staged]","tr":"Hazırlanmış[GainsStages|Staged]"}
-{"en":"[Conditional]","tr":"Koşullu [Conditional|Conditional]"}
-{"en":"[Wind]","tr":"Rüzgâr [Wind|Wind]"}
+{"en":"[Conditional]","tr":"[Conditional|Koşullu]"}
+{"en":"[Wind]","tr":"[Wind|Rüzgâr]"}
 {"en":"Fossils","tr":"Fosil Kalıntıları"}
 {"en":"Metamorphosis","tr":"Metaforoz"}
 {"en":"Sentinel","tr":"Nöbetçi"}
@@ -54114,19 +54114,19 @@
 {"en":"[ContainsDelirium|Delirium] Mirror Activated","tr":"[ContainsDelirium|Sanrı] Aynası Aktif Hale Getirildi."}
 {"en":"[Jewellery]","tr":"[Jewellery|Mücevher]"}
 {"en":"[Focus], [Sceptre] or [Wand]","tr":"[Focus|Odak], [Sceptre|Asa] veya [Wand|Değnek]."}
-{"en":"[Staff]","tr":"[Staff|Asa]."}
+{"en":"[Staff]","tr":"[Staff|Asa]"}
 {"en":"[Melee] [MartialWeapon|Weapon]","tr":"[Melee|Yakın Dövüş] [MartialWeapon|Silah]."}
 {"en":"[Bow] or [Crossbow]","tr":"[Bow|Yay] veya [Crossbow|Tatar Yayı]."}
 {"en":"[MartialWeapon|Martial Weapon], Gloves or [Quiver]","tr":"[MartialWeapon|Savaş Silahı], Eldivenler veya [Quiver|Sadak]."}
 {"en":"[Focus], [Staff] or [Wand]","tr":"[Focus|Odak], [Staff|Asa] veya [Wand|Değnek]."}
-{"en":"[Quiver]","tr":"[Quiver|Sadak]."}
+{"en":"[Quiver]","tr":"[Quiver|Sadak]"}
 {"en":"[Focus], [Sceptre], [Wand] or [Jewellery]","tr":"[Focus|Odak], [Sceptre|Hükümdar Asası], [Wand|Değnek] veya [Jewellery|Mücevher]."}
-{"en":"[Sceptre]","tr":"[Sceptre|Hükümdar Asası]."}
-{"en":"[Shield]","tr":"[Shield|Kalkan]."}
-{"en":"[Focus]","tr":"[Focus|Odak]."}
-{"en":"[Wand]","tr":"[Wand|Değnek]."}
+{"en":"[Sceptre]","tr":"[Sceptre|Hükümdar Asası]"}
+{"en":"[Shield]","tr":"[Shield|Kalkan]"}
+{"en":"[Focus]","tr":"[Focus|Odak]"}
+{"en":"[Wand]","tr":"[Wand|Değnek]"}
 {"en":"[Staff] or [Wand]","tr":"[Staff|Asa] veya [Wand|Değnek]."}
-{"en":"[Mace]","tr":"[Mace|Topuz]."}
+{"en":"[Mace]","tr":"[Mace|Topuz]"}
 {"en":"[Quarterstaff]","tr":"[Quarterstaff|Uzun Asa]"}
 {"en":"[Spear]","tr":"[Spear|Mızrak]"}
 {"en":"[Crossbow]","tr":"[Crossbow|Tatar Yayı]"}
@@ -68840,16 +68840,16 @@
 {"en":"{0}% less [Attack] damage with [Two-Handed|Two Handed Weapons]","tr":"%{0} daha az [Attack|Saldırı] hasarı [Two-Handed|Çift Elli Silahlar] ile"}
 {"en":"{0}% more [Attack] Speed with Two Handed Weapons","tr":"%{0} daha fazla [Attack|Saldırı] Hızı Çift Elli Silahlar ile"}
 {"en":"{0}% less [Attack] Speed with Two Handed Weapons","tr":"%{0} daha az [Attack|Saldırı] Hızı Çift Elli Silahlar ile"}
-{"en":"[Conversion|Converts] {0}% of [Cold] damage to [Fire] damage","tr":"[Conversion|Dönüştürür] %{0} [Cold|Soğuk] hasarını [Fire|Ateş] hasarına çevirir."}
-{"en":"[Conversion|Converts] {0}% of [Fire] damage to [Chaos] damage","tr":"[Conversion|Dönüştürür] %{0} [Fire|Ateş] hasarını [Chaos|Kaos] hasarına çevirir."}
-{"en":"[Conversion|Converts] {0}% of [Lightning] damage to [Chaos] damage","tr":"[Conversion|Dönüştürür] %{0} [Lightning|Yıldırım] hasarını [Chaos|Kaos] hasarına çevirir."}
+{"en":"[Conversion|Converts] {0}% of [Cold] damage to [Fire] damage","tr":"%{0} [Cold|Soğuk] hasarını [Fire|Ateş] hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] {0}% of [Fire] damage to [Chaos] damage","tr":"%{0} [Fire|Ateş] hasarını [Chaos|Kaos] hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] {0}% of [Lightning] damage to [Chaos] damage","tr":"%{0} [Lightning|Yıldırım] hasarını [Chaos|Kaos] hasarına [Conversion|dönüştürür]"}
 {"en":"[Gain|Gains] {0}% of [Physical] damage as [Cold] damage","tr":"[Gain|Kazanır] %{0} [Physical|Fiziksel] hasarı [Cold|Soğuk] hasarı olarak"}
 {"en":"[Gain|Gains] {0}% of [Physical] damage as [Lightning] damage","tr":"[Gain|Kazanır] %{0} [Physical|Fiziksel] hasarı [Lightning|Yıldırım] hasarı olarak"}
-{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Chaos|Chaos] damage","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] hasarı [Chaos|Kaos] hasarına çevirir."}
-{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Cold|Cold] damage","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] hasarı [Cold|Soğuk] hasarına çevirir."}
-{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Fire|Fire] damage","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] hasarı [Fire|Ateş] hasarına çevirir."}
-{"en":"[Conversion|Converts] {0}% of [Physical] Damage to [Lightning] Damage","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] Hasarı [Lightning|Yıldırım] Hasarına Çevirir."}
-{"en":"[Conversion|Converts] -{0}% of [Physical] Damage to [Lightning] Damage","tr":"[Conversion|Dönüştürür] -%{0} [Physical|Fiziksel] Hasarı [Lightning|Yıldırım] Hasarına Çevirir."}
+{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Chaos|Chaos] damage","tr":"%{0} [Physical|Fiziksel] hasarını [Chaos|Kaos] hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Cold|Cold] damage","tr":"%{0} [Physical|Fiziksel] hasarını [Cold|Soğuk] hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] {0}% of [Physical|Physical] damage to [Fire|Fire] damage","tr":"%{0} [Physical|Fiziksel] hasarını [Fire|Ateş] hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] {0}% of [Physical] Damage to [Lightning] Damage","tr":"%{0} [Physical|Fiziksel] Hasarını [Lightning|Yıldırım] Hasarına [Conversion|dönüştürür]"}
+{"en":"[Conversion|Converts] -{0}% of [Physical] Damage to [Lightning] Damage","tr":"-%{0} [Physical|Fiziksel] Hasarını [Lightning|Yıldırım] Hasarına [Conversion|dönüştürür]"}
 {"en":"Can have an additional Brand Attached to an Enemy","tr":"Bir Düşmana ek bir Damga eklenebilir."}
 {"en":"Can have {0} additional Brands Attached to an Enemy","tr":"{0} kadar ek Damga bir Düşmana eklenebilir."}
 {"en":"Increases and Reductions to Cast Speed apply to this Skill's [Attack] Speed","tr":"Büyü Hızına yapılan artışlar ve azaltmalar, bu Yeteneğin [Attack|Saldırı] hızını etkiler"}
@@ -72593,7 +72593,7 @@
 {"en":"Supported Skills have {0}% chance to throw an additional Trap","tr":"Desteklenen Yeteneklerin ek bir Tuzak fırlatma şansı %{0}'dır."}
 {"en":"{0}% more [Totem] [Attack] Speed","tr":"%{0} daha fazla [Totem|Totem] [Attack|Saldırı] Hızı"}
 {"en":"{0}% less [Totem] [Attack] Speed","tr":"%{0} daha az [Totem|Totem] [Attack|Saldırı] Hızı"}
-{"en":"Supported Skills deal no [Projectile] damage","tr":"Desteklenen [Projectile|Mermi] hasarı vermeyen Yetenekler."}
+{"en":"Supported Skills deal no [Projectile] damage","tr":"Desteklenen Yetenekler hiçbir [Projectile|Mermi] hasarı vermez."}
 {"en":"Supported Skills deal {0}% more [Projectile] Damage","tr":"Desteklenen [Projectile|Mermi] Yetenekleri %{0} daha fazla Hasar verir."}
 {"en":"Supported Skills deal {0}% less [Projectile] Damage","tr":"Desteklenen Yetenekler, %{0} daha az [Projectile|Mermi] Hasarı verir."}
 {"en":"Supported Skills have {0}% more chance to inflict [Ailments]","tr":"Desteklenen Yeteneklerin [Ailments|Rahatsızlıklar] etki ettirme şansı %{0} daha fazladır."}
@@ -74434,7 +74434,7 @@
 {"en":"Empowered Monsters have {0}% increased Rarity of Items Found","tr":"Güçlendirilmiş Canavarlar, bulduğun Eşyaların Nadirliğini %{0} artırılmış durumda."}
 {"en":"Empowered Monsters have {0}% reduced Rarity of Items Found","tr":"Güçlendirilmiş Canavarlar, bulduğun Eşyaların Nadirliğini %{0} azaltılmış durumda."}
 {"en":"Empowered Monsters grant {0}% reduced Sentinel Power","tr":"Güçlendirilmiş Canavarlar, %{0} azaltılmış Nöbetçi Gücü sağlar."}
-{"en":"Requires {0} [Glory] to use","tr":"{0} [Glory|Şan] gerektirir kullanmak için."}
+{"en":"Requires {0} [Glory] to use","tr":"Kullanmak için {0} [Glory|Şan] gerektirir"}
 {"en":"This Skill's base cost is equal to {0}% of the base\\ncosts of Socketed Skills","tr":"Bu Yeteneğin temel maliyeti, Yuvalanmış Yeteneklerin temel maliyetlerinin %{0}'ına eşittir."}
 {"en":"Sacrifices {0}% of [Minion|Minion's] life to deal that much [Chaos] damage","tr":"[Minion|Yaratık]'ın Can'ının %{0}'ını feda ederek o kadar [Chaos|Kaos] hasarı verir."}
 {"en":"Reflects Physical Damage around each Enemy equal to the Damage of removed Impales multiplied by the number of Hits they have left\\nGrants 1 Steel Shard for each Impale removed","tr":"Her Düşman etrafında, ortadan kaldırılan Vuruşların Hasarı ile çarpılan kalan Vuruşlar sayısıyla eşit Fiziksel Hasar yansıtır. Her ortadan kaldırılan Vuruş için 1 Çelik Shard sağlar."}
@@ -74726,7 +74726,7 @@
 {"en":"{0}% reduced Area of Effect each repeat","tr":"%{0} azaltılmış Etki Alanı her tekrar için"}
 {"en":"Beams deal {0}% more Damage","tr":"Işınlar, hasarı %{0} daha fazla verir"}
 {"en":"Beams deal {0}% less Damage","tr":"Işınlar, hasarı %{0} daha az verir"}
-{"en":"Can't be [Evasion|Evaded]","tr":"[Evasion|Kaçınma]'dan kurtulamazsın"}
+{"en":"Can't be [Evasion|Evaded]","tr":"[Evasion|Kaçınılamaz]"}
 {"en":"{0}% more Damage with Hits against Stunned enemies","tr":"%{0} daha fazla Hasar, Sersemlemiş düşmanlara karşı Vuruşlarla"}
 {"en":"{0}% less Damage with Hits against Stunned enemies","tr":"%{0} daha az Hasar, Sersemlemiş düşmanlara karşı Vuruşlarla"}
 {"en":"{0}% more Damage with Hits against Burning enemies","tr":"%{0} daha fazla Hasar, Yanan düşmanlara karşı Vuruşlarla"}
@@ -74944,8 +74944,8 @@
 {"en":"{0}% less [Projectile] Damage after [Pierce|Piercing] an Enemy","tr":"Bir Düşmanı [Projectile|Mermi] sonra %{0} daha az [Pierce|Delip Geçtikten] Hasarı"}
 {"en":"{0}% more reload speed","tr":"%{0} daha hızlı Şarjör Doldurma"}
 {"en":"{0}% less reload speed","tr":"%{0} daha yavaş Şarjör Doldurma"}
-{"en":"Requires {0} fewer [Combo] to use","tr":"{0} daha az [Combo|Kombo] gerektirir kullanmak için"}
-{"en":"Requires {0} [Combo] to use","tr":"{0} [Combo|Kombo] gerektirir kullanmak için"}
+{"en":"Requires {0} fewer [Combo] to use","tr":"Kullanmak için {0} daha az [Combo|Kombo] gerektirir"}
+{"en":"Requires {0} [Combo] to use","tr":"Kullanmak için {0} [Combo|Kombo] gerektirir"}
 {"en":"[Shock|Shocks] Enemies as though dealing {0}% more Damage","tr":"Düşmanları, sanki %{0} daha fazla Hasar veriyormuş gibi [Shock|Şoklar]"}
 {"en":"[Shock|Shocks] Enemies as though dealing {0}% less Damage","tr":"Düşmanları, sanki %{0} daha az Hasar veriyormuş gibi [Shock|Şoklar]"}
 {"en":"{0}% more chance to [Shock]","tr":"%{0} daha fazla [Shock|Şok] olma şansı"}
@@ -75995,7 +75995,7 @@
 {"en":"[Empowered] [Spell] damage [Gain|Gained] as [Lightning|Lightning]@{0}%","tr":"[Empowered|Güçlendirilmiş] [Spell|Büyü] hasarı [Gain|Kazanılır] olarak [Lightning|Yıldırım]@%{0}"}
 {"en":"[Empowered] [Spell|Spells] [Gain] {0:+d}% of damage as [Lightning|Lightning] Damage","tr":"[Empowered|Güçlendirilmiş] [Spell|Büyüler] [Gain|Kazanır] {0:+d}% hasarını [Lightning|Yıldırım] Hasarı olarak"}
 {"en":"[Empowered] [Spell|Spells] [Gain] {0}% of damage as [Lightning|Lightning] Damage","tr":"[Empowered|Güçlendirilmiş] [Spell|Büyüler] [Gain|Kazanır] %{0} hasarını [Lightning|Yıldırım] Hasarı olarak"}
-{"en":"[Conversion|Converts] {0}% of [Physical] Damage to a random [ElementalDamage|Element]","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] Hasarı rastgele bir [ElementalDamage|Element]'e"}
+{"en":"[Conversion|Converts] {0}% of [Physical] Damage to a random [ElementalDamage|Element]","tr":"%{0} [Physical|Fiziksel] Hasarını rastgele bir [ElementalDamage|Element]'e [Conversion|dönüştürür]"}
 {"en":"Use time@{0}s","tr":"Kullanım süresi@{0}s"}
 {"en":"Casts at the targeted location instead of around you","tr":"Hedeflenen konuma büyü yapar, etrafınızda değil"}
 {"en":"[Chain|Chaining] creates an additional [Projectile]","tr":"[Chain|Sekme] ek bir [Projectile|Mermi] oluşturur"}
@@ -78162,7 +78162,7 @@
 {"en":"Requiem lasts for {0} second","tr":"Requiem {0} saniye sürer."}
 {"en":"Requiem lasts for {0} seconds","tr":"Requiem {0} saniye sürer."}
 {"en":"Anguish required@{0}","tr":"Çile gereklidir@{0}"}
-{"en":"Requires {0} anguish to use","tr":"{0} Çile kullanmak için gereklidir."}
+{"en":"Requires {0} anguish to use","tr":"Kullanmak için {0} Çile gerektirir"}
 {"en":"Anguish accumulated per second@{0}","tr":"Saniyede birikilen Çile@{0}"}
 {"en":"Accumulates {0} anguish per second","tr":"Saniyede {0} Çile biriktirir."}
 {"en":"Will [Consume] a [DivineFragment|Fragment of Divinity] within 3 metres of you or targeted location when you leap to become [Empowered]","tr":"[Consume|Tüketme] 3 metre yakınındaki veya hedef konumdaki [DivineFragment|Divinitenin Parçası]'nı, zıpladığınızda [Empowered|Güçlendirilmiş] hale gelmek için kullanır."}
@@ -78882,8 +78882,8 @@
 {"en":"Thrust length is {0} metres","tr":"İtme uzunluğu {0} metreler"}
 {"en":"Thrust width is {0} metre","tr":"İtme genişliği {0} metre"}
 {"en":"Thrust width is {0} metres","tr":"İtme genişliği {0} metreler"}
-{"en":"Requires {0} [Charges|Frenzy Charge] to use","tr":"{0} [Charges|Çılgınlık Yükü] kullanmak için gereklidir"}
-{"en":"Requires {0} [Charges|Frenzy Charges] to use","tr":"{0} [Charges|Çılgınlık Yükleri] kullanmak için gereklidir"}
+{"en":"Requires {0} [Charges|Frenzy Charge] to use","tr":"Kullanmak için {0} [Charges|Çılgınlık Yükü] gerektirir"}
+{"en":"Requires {0} [Charges|Frenzy Charges] to use","tr":"Kullanmak için {0} [Charges|Çılgınlık Yükleri] gerektirir"}
 {"en":"Thrust width@{0}m","tr":"İtme genişliği@{0}m"}
 {"en":"Serpent length@{0}m","tr":"Yılan uzunluğu@{0}m"}
 {"en":"Serpent length is {0} metre","tr":"Yılan uzunluğu {0} metre"}
@@ -92120,7 +92120,7 @@
 {"en":"Supported Skills spend {0} [Rage] if possible to\\ndeal {1}% less Damage","tr":"Desteklenen Yetenekler, mümkünse %{1} daha az Hasar vermek için {0} [Rage|Öfke] harcar."}
 {"en":"Recover {0}% of maximum [EnergyShield|Energy Shield] when a Supported Skill deals a [KillingBlow|Killing Blow] to a [Shock|Shocked] enemy","tr":"Bir Destekli [EnergyShield|Enerji Kalkanı], şoklanmış bir [KillingBlow|Yetenek]'a ölümcül bir darbe vurduğunda, azami [Shock|Düşman]'nın %{0}’ını geri kazan."}
 {"en":"Supported Skills have {0}% less [Accuracy|Accuracy Rating] against Enemies within two metres","tr":"Desteklenen Yetenekler, iki metre içindeki Düşmanlara karşı %{0} daha az [Accuracy|İsabet Derecesi] sahip olur."}
-{"en":"Supported Skills deal no [Melee] damage","tr":"Desteklenen [Melee|Melee] yetenekleri hasar vermez."}
+{"en":"Supported Skills deal no [Melee] damage","tr":"Desteklenen Yetenekler hiçbir [Melee|Yakın Dövüş] hasarı vermez."}
 {"en":"Supported Skills create [ShockedGround|Shocked Ground] for {0} second when they [Critical|Critically Hit], no more than once per Skill use\\n[ShockedGround|Shocked Ground] created this way has a radius of {1} metre","tr":"Desteklenen [ShockedGround|Yetenekler], kritik vuruş yaptığında {0} saniye boyunca [Critical|Şoklu Zemin] oluşturur, kullanım başına en fazla bir kez.\\nBu şekilde oluşturulan [ShockedGround|Şoklu Zemin]'in yarıçapı {1} metre."}
 {"en":"Supported Skills create [ShockedGround|Shocked Ground] for {0} second when they [Critical|Critically Hit], no more than once per Skill use\\n[ShockedGround|Shocked Ground] created this way has a radius of {1} metres","tr":"Desteklenen [ShockedGround|Yetenekler], kritik vuruş yaptığında {0} saniye boyunca [Critical|Şoklu Zemin] oluşturur, kullanım başına en fazla bir kez.\\nBu şekilde oluşturulan [ShockedGround|Şoklu Zemin]'in yarıçapı {1} metre."}
 {"en":"Supported Skills create [ShockedGround|Shocked Ground] for {0} seconds when they [Critical|Critically Hit], no more than once per Skill use\\n[ShockedGround|Shocked Ground] created this way has a radius of {1} metre","tr":"Desteklenen [ShockedGround|Yetenekler], kritik vuruş yaptığında {0} saniye boyunca [Critical|Şoklu Zemin] oluşturur, kullanım başına en fazla bir kez.\\nBu şekilde oluşturulan [ShockedGround|Şoklu Zemin]'in yarıçapı {1} metre."}
@@ -93760,7 +93760,7 @@
 {"en":"Map Node (Complete)","tr":"Harita Düğümü (Tamamlandı)"}
 {"en":"Map Node (Failed)","tr":"Harita Düğümü (Başarısız)"}
 {"en":"{0} to {1} Added Physical damage per 15 [Armour|Armour] or [Evasion|Evasion Rating] on [Shield|Shield]","tr":"{0} ila {1} Fiziksel hasar, [Armour|Zırh] üzerindeki 15 [Evasion|Kaçınma Değeri] veya [Shield|Kalkan] başına eklenir."}
-{"en":"[Conversion|Converts] {0}% of [Physical] damage to [Lightning] damage","tr":"[Conversion|Dönüştürür] %{0}'ını [Physical|Fiziksel] hasarın [Lightning|Yıldırım] hasarına"}
+{"en":"[Conversion|Converts] {0}% of [Physical] damage to [Lightning] damage","tr":"%{0} [Physical|Fiziksel] hasarını [Lightning|Yıldırım] hasarına [Conversion|dönüştürür]"}
 {"en":"[ExaltedOrb|Exalted Orbs] may be used to add [Essence|Essences] to Essence Monsters, up to {0} additional Essences","tr":"[ExaltedOrb|Exalted Orb'lar] Essence Canavarlarına [Essence|Essence]'ler eklemek için kullanılabilir, en fazla {0} kadar ek Essence."}
 {"en":"{0}% reduced [Waystone] Modifier Effect on non [Rarity|Unique] Maps","tr":"%{0} azaltılmış [Waystone|Waystone] Değiştirici Etkisi, eşsiz olmayan [Rarity|Harita]larda"}
 {"en":"{0}% reduced [MonsterEffectiveness|Effectiveness] of [Rarity|Rare] Monsters in your Maps","tr":"%{0} azaltılmış [MonsterEffectiveness|Nadir] Canavarların Maps'indeki [Rarity|Etkinliği]"}
@@ -93828,7 +93828,7 @@
 {"en":"Supported Skills [Overwhelm|Overwhelm] {0}% [Physical|Physical] Damage Reduction","tr":"Desteklenen Yetenekler [Overwhelm|Ezici Baskın] %{0} [Physical|Fiziksel] Hasar Azaltma"}
 {"en":"Gain {1} [Guard] per ten [Strength] when you [Stun] an Enemy\\nGain an additional {0} [Guard] per ten [Strength] if [HeavyStun|Heavily Stunning]\\n[Guard] duration is {2} second","tr":"[Guard|Koruma] başına on [Strength|Güç]'e karşılık {1} [Stun|Sersemletme] kazan. \\n[Guard|Koruma] yapıyorsan ek olarak on [Strength|Güç]'e karşılık %{0} [HeavyStun|Ağır Sersemletme] kazan.\\n[Guard|Koruma] süresi {2} saniyedir."}
 {"en":"Gain {1} [Guard] per ten [Strength] when you [Stun] an Enemy\\nGain an additional {0} [Guard] per ten [Strength] if [HeavyStun|Heavily Stunning]\\n[Guard] duration is {2} seconds","tr":"[Guard|Koruma] başına on [Strength|Güç]'e karşılık {1} [Stun|Sersemletme] kazan. \\n[Guard|Koruma] yapıyorsan ek olarak on [Strength|Güç]'e karşılık %{0} [HeavyStun|Ağır Sersemletme] kazan.\\n[Guard|Koruma] süresi {2} saniyedir."}
-{"en":"Supported Skills deal no [ElementalDamage|Elemental] Damage","tr":"Desteklenen [ElementalDamage|Elemental] Hasarı vermeyen Yetenekler."}
+{"en":"Supported Skills deal no [ElementalDamage|Elemental] Damage","tr":"Desteklenen Yetenekler hiçbir [ElementalDamage|Elemental] Hasarı vermez."}
 {"en":"[HitDamage|Hits] with Supported Skills have {0}% chance to ignore Enemy [Physical] Damage reduction","tr":"[HitDamage|Vuruşlar], desteklenen [Physical|Skill]lerle yapılanlar, düşmanın fiziksel hasar azaltımını %{0} şansla görmezden gelme fırsatına sahip olur."}
 {"en":"{0}% less [BuffMagnitude|Magnitude] of [Ignite|Ignite] inflicted on [Frozen|Frozen] targets with Supported Skills","tr":"%{0} daha az [BuffMagnitude|Magnitude] [Ignite|Yakma] hasarı, Destekli [Frozen|Donmuş] hedeflere uygulanır."}
 {"en":"[DNT-UNUSED] Modifiers to [Melee] damage apply to [Spell] damage for the supported skill at {0}% effectiveness","tr":"[DNT-UNUSED|DNT-UNUSED] Desteklenen yeteneğin [Melee|Yakın Dövüş] hasarına uygulanan [Spell|Büyü] hasarı değiştiricileri, %{0} etkinlikte uygulanır."}
@@ -93922,9 +93922,9 @@
 {"en":"More damage over time when [Consume|Consuming] a random [Ailments|Ailment]@{0}%","tr":"[Consume|Tüketme] sırasında rastgele bir [Ailments|Rahatsızlık] ile Zamana Yayılı Hasar daha fazla@%{0}"}
 {"en":"Chills from Hits always reduce Action Speed by at least {0}%","tr":"Vuruşlardan gelen Üşütmeler her zaman Eylem Hızını en az %{0} azaltır."}
 {"en":"More [Knockback] distance per stage@{0}%","tr":"%0 [Knockback|Geri İtme] mesafesi her aşamada@{0} ```"}
-{"en":"[Conversion|Converts] {0}% of [Physical|Physical Damage] to [Fire] damage with [AncestralBoost|Boosted] [Attack|Attacks]","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel Hasar]'ı, [Fire|Ateş] [AncestralBoost|Güçlendirilmiş] ile [Attack|Saldırılar] hasarına."}
+{"en":"[Conversion|Converts] {0}% of [Physical|Physical Damage] to [Fire] damage with [AncestralBoost|Boosted] [Attack|Attacks]","tr":"[AncestralBoost|Güçlendirilmiş] [Attack|Saldırılar] ile %{0} [Physical|Fiziksel Hasar]'ı [Fire|Ateş] hasarına [Conversion|dönüştürür]"}
 {"en":"[Physical] to [Fire] [Conversion]@{0}%","tr":"[Physical|Fiziksel]den [Fire|Ateş]e [Conversion|Dönüştürme]@%{0}"}
-{"en":"[Conversion|Converts] {0}% of [Physical] damage to [Fire] damage","tr":"[Conversion|Dönüştürür] %{0} [Physical|Fiziksel] hasarı [Fire|Ateş] hasarına."}
+{"en":"[Conversion|Converts] {0}% of [Physical] damage to [Fire] damage","tr":"%{0} [Physical|Fiziksel] hasarını [Fire|Ateş] hasarına [Conversion|dönüştürür]"}
 {"en":"Gain [Ward|Runic Ward] equal to {0}% of [Sacrifice|Sacrificed] Life","tr":"Kazanılan [Ward|Runik Koruma], feda edilen [Sacrifice|Can]'ın %{0}’ı kadar."}
 {"en":"Swarms [Conversion|Convert] {0}% of [Physical] Damage to a random [ElementalDamage|Element]","tr":"Swarms [Conversion|Dönüştürür] %{0} [Physical|Fiziksel] Hasarı rastgele bir [ElementalDamage|Elemental] hasara dönüştürür."}
 {"en":"Grants you a [Charges|Frenzy Charge] when [CullingStrike|Culling] an enemy","tr":"[Charges|Culling] yaparak bir [CullingStrike|Frenzy Charge] kazanırsın"}

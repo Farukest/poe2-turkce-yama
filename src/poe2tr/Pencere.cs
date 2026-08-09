@@ -22,7 +22,16 @@ public sealed class Pencere : Form, IKurulumArayuzu {
 	private static readonly Color Kirmizi = Color.FromArgb(214, 106, 96);
 
 	private readonly bool guncelleme;
-	private readonly Label oyunEtiket = new();
+	/// <summary>
+	/// Oyun yolu DÜZENLENEBİLİR bir kutu, salt okunur etiket değil.
+	///
+	/// Bir kullanıcıda "Gözat" penceresi açılmadı/dondu ve bende yeniden
+	/// üretilemedi. Kabuğun klasör seçicisi COM tabanlı; ağ sürücüsü,
+	/// bağlantısı kopmuş eşleme ya da antivirüs yüzünden takılabiliyor ve
+	/// buna karşı yapabileceğimiz bir şey yok. Yolu elle yapıştırmak o
+	/// bağımlılığı tamamen ortadan kaldırıyor.
+	/// </summary>
+	private readonly TextBox oyunKutusu = new();
 	private readonly Label durumEtiket = new();
 	private readonly RichTextBox kayit = new();
 	private readonly Button eylem = new();
@@ -72,26 +81,29 @@ public sealed class Pencere : Form, IKurulumArayuzu {
 		var kutuDis = new Panel { Dock = DockStyle.Top, Height = 74, BackColor = Arka, Padding = new Padding(24, 0, 24, 16) };
 		var kutu = new Panel { Dock = DockStyle.Fill, BackColor = Panel };
 		var oyunBas = new Label {
-			Text = "OYUN KLASÖRÜ", ForeColor = Solgun, AutoSize = true,
+			Text = "OYUN KLASÖRÜ  ·  yolu buraya yapıştırabilirsin", ForeColor = Solgun, AutoSize = true,
 			Font = new Font("Segoe UI", 7.5F), Location = new Point(12, 9),
 		};
-		oyunEtiket.ForeColor = Metin;
-		oyunEtiket.AutoEllipsis = true;
-		oyunEtiket.Location = new Point(12, 27);
-		oyunEtiket.Size = new Size(540, 20);
-		oyunEtiket.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+		oyunKutusu.ForeColor = Metin;
+		oyunKutusu.BackColor = Panel;
+		oyunKutusu.BorderStyle = BorderStyle.None;
+		oyunKutusu.Font = new Font("Segoe UI", 9.5F);
+		oyunKutusu.Location = new Point(12, 27);
+		oyunKutusu.Size = new Size(540, 20);
+		oyunKutusu.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+		oyunKutusu.TextChanged += (_, _) => YolDegisti();
 
-		DugmeBicimle(degistir, "Değiştir…", ikincil: true);
+		DugmeBicimle(degistir, "Gözat…", ikincil: true);
 		degistir.Size = new Size(104, 30);
 		degistir.Anchor = AnchorStyles.Top | AnchorStyles.Right;
 		degistir.Location = new Point(kutu.Width - 116, 14);
 		degistir.Click += (_, _) => OyunSec();
 		kutu.Resize += (_, _) => {
 			degistir.Location = new Point(kutu.Width - 116, 14);
-			oyunEtiket.Width = kutu.Width - 132;
+			oyunKutusu.Width = kutu.Width - 132;
 		};
 
-		kutu.Controls.AddRange([oyunBas, oyunEtiket, degistir]);
+		kutu.Controls.AddRange([oyunBas, oyunKutusu, degistir]);
 		kutuDis.Controls.Add(kutu);
 
 		// ---- alt şerit
@@ -151,35 +163,54 @@ public sealed class Pencere : Form, IKurulumArayuzu {
 	// ------------------------------------------------------------- olaylar
 
 	private void OyunuTespitEt() {
-		oyunYolu = null;
 		Yaz("Oyun aranıyor…", KurulumRenk.Solgun);
 		var bulundu = Kurulum.OyunuBul(null, new SessizArayuz());
 		if (bulundu is not null) {
-			oyunYolu = bulundu;
-			oyunEtiket.Text = bulundu;
-			oyunEtiket.ForeColor = Metin;
+			oyunKutusu.Text = bulundu;      // YolDegisti tetiklenir
 			Yaz("Oyun bulundu.", KurulumRenk.Basarili);
 		} else {
-			oyunEtiket.Text = "Bulunamadı — 'Değiştir' ile klasörü seç";
-			oyunEtiket.ForeColor = Sari;
-			Yaz("Oyun otomatik bulunamadı. 'Değiştir' düğmesiyle klasörü seç.", KurulumRenk.Uyari);
+			Yaz("Oyun otomatik bulunamadı.", KurulumRenk.Uyari);
+			Yaz("Klasör yolunu yukarıdaki kutuya yapıştır, ya da 'Gözat…' kullan.", KurulumRenk.Uyari);
+			Yaz(@"Örnek:  D:\SteamLibrary\steamapps\common\Path of Exile 2", KurulumRenk.Solgun);
 		}
 		if (!Kurulum.OodleHazirMi())
 			Yaz("Not: Oodle kütüphanesi ilk çalıştırmada aranacak (bir kez, ~45 sn).", KurulumRenk.Solgun);
 	}
 
-	private void OyunSec() {
-		using var d = new FolderBrowserDialog { Description = "Path of Exile 2 klasörünü seç" };
-		if (d.ShowDialog(this) != DialogResult.OK) return;
-		if (!Kurulum.Gecerli(d.SelectedPath)) {
-			MessageBox.Show(this, $"Bu klasörde {Kurulum.IndexAltYol} yok.\n\nDoğru klasörün içinde 'Bundles2' adlı bir klasör bulunur.",
-				"Yanlış klasör", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-			return;
+	/// <summary>Kutuya her yazıldığında yolu doğrular ve rengiyle geri bildirir.</summary>
+	private void YolDegisti() {
+		var yol = oyunKutusu.Text.Trim().Trim('"');
+		if (Kurulum.Gecerli(yol)) {
+			oyunYolu = yol;
+			oyunKutusu.ForeColor = Yesil;
+		} else {
+			oyunYolu = null;
+			oyunKutusu.ForeColor = yol.Length == 0 ? Metin : Kirmizi;
 		}
-		oyunYolu = d.SelectedPath;
-		oyunEtiket.Text = d.SelectedPath;
-		oyunEtiket.ForeColor = Metin;
-		Yaz("Oyun klasörü seçildi.", KurulumRenk.Basarili);
+	}
+
+	private void OyunSec() {
+		try {
+			using var d = new FolderBrowserDialog {
+				Description = "Path of Exile 2 klasörünü seç",
+				ShowNewFolderButton = false,
+			};
+			// Mevcut yoldan basla: kabuk boylece tum ag konumlarini taramak
+			// zorunda kalmiyor, acilma da hizlaniyor.
+			if (oyunYolu is not null) d.SelectedPath = oyunYolu;
+
+			if (d.ShowDialog(this) != DialogResult.OK) return;
+			oyunKutusu.Text = d.SelectedPath;
+			if (!Kurulum.Gecerli(d.SelectedPath))
+				Yaz($"Bu klasörde {Kurulum.IndexAltYol} yok — içinde 'Bundles2' olan klasörü seç.", KurulumRenk.Hata);
+			else
+				Yaz("Oyun klasörü seçildi.", KurulumRenk.Basarili);
+		} catch (Exception e) {
+			// Kabuk secicisi bazi makinelerde acilmiyor/donuyor. Program bu
+			// yuzden kullanilamaz hale gelmemeli - kutuya elle yazmak duruyor.
+			Yaz("Klasör seçici açılamadı: " + e.Message, KurulumRenk.Hata);
+			Yaz("Yolu yukarıdaki kutuya elle yapıştırabilirsin.", KurulumRenk.Uyari);
+		}
 	}
 
 	private void Basla() {

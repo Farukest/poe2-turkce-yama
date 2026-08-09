@@ -55,6 +55,9 @@ public static partial class StatText {
 	/// <summary>Bicim etiketi: &lt;i&gt;, &lt;white&gt;, &lt;rgb(1,2,3)&gt;...</summary>
 	[GeneratedRegex(@"<[^>]+>")] private static partial Regex TagRx();
 
+	/// <summary>Kaynak bastan sona tek bir koseli parantezden ibaret: "[Sustained]".</summary>
+	[GeneratedRegex(@"^\[([^\]\|]+)\]$")] private static partial Regex TekEtiketRx();
+
 	/// <summary>[Anahtar|Gorunen]. Masking'dekiyle ayni daraltmalar.</summary>
 	[GeneratedRegex(@"\[([^\]\|{}<>]+)\|([^\]]*)\]")] private static partial Regex AnahtarRx();
 
@@ -123,6 +126,30 @@ public static partial class StatText {
 		// yaziyor. Kaynakta yoksa ceviride de olmamali.
 		if (!TagRx().IsMatch(en) && TagRx().IsMatch(tr))
 			tr = TagRx().Replace(tr, "");
+
+		// 0a4) Kaynak TAMAMEN tek bir koseli parantezse, ceviri de oyle olmali.
+		//
+		//   kaynak  [Sustained]
+		//   ceviri  Sürekli[Sustained|Sustained]     <- ceviri parantezin DISINDA
+		//   ceviri  [Staff|Asa].                     <- sonda uydurma nokta
+		//
+		// Bu alanlar (ornegin gemtags|Name) yalnizca bir etiket adi tasiyor;
+		// oyun parantezin GORUNEN kismini basiyor, disarida kalan her sey
+		// ekranda da oyle goruunuyor ("SürekliSustained").
+		// Dogrulama bunu yakalayamiyor: parantez sayisi tutuyor.
+		var tekEtiket = TekEtiketRx().Match(en);
+		if (tekEtiket.Success) {
+			var m = Regex.Match(tr, @"^(?<on>[^\[]*)\[(?<anahtar>[^\]\|]+)(?:\|(?<gorunen>[^\]]*))?\](?<son>.*)$");
+			if (m.Success) {
+				var disarida = (m.Groups["on"].Value + m.Groups["son"].Value).Trim(' ', '.', ',', ':', '\t');
+				var icerik = m.Groups["gorunen"].Success ? m.Groups["gorunen"].Value : m.Groups["anahtar"].Value;
+				// Icerik anahtarla ayniysa cevrilmemis demektir; disarida bir sey
+				// varsa gercek ceviri odur.
+				if (string.Equals(icerik, tekEtiket.Groups[1].Value, StringComparison.Ordinal) && disarida.Length > 0)
+					icerik = disarida;
+				tr = $"[{tekEtiket.Groups[1].Value}|{icerik}]";
+			}
+		}
 
 		// 0b) Modelin CEVAP BICIMI ceviriye sizmis mi?
 		//
