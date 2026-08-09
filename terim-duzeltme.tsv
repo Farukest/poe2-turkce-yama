@@ -1,0 +1,25 @@
+# Terim tutarlılığı düzeltmeleri — sözlükten SAPAN çevirileri geri çeker.
+#
+# NEDEN AYRI BİR DOSYA: sozluk.tsv modele "şunu kullan" diyor; bu dosya
+# "kullanmamışsa düzelt" diyor. Model, terimin bir parçası köşeli parantez
+# içinde bir parçası dışında kaldığında (ör. kaynakta "[Evasion] Rating")
+# dışarıda kalan kelimeyi kendi bildiği gibi çeviriyor ve aynı terim oyunda
+# üç ayrı isimle görünüyor. Ölçüm: "Kaçınma Derecesi" 47, "Kaçınma Değeri" 12.
+#
+# Biçim, sekmeyle ayrılmış üç sütun:
+#   1. KAYNAK KOŞULU   İngilizce metinde aranan regex. Tutmazsa kural işlemez;
+#                      bu, doğru terimi yanlışlıkla ezmeyi önlüyor.
+#   2. ARANAN          Türkçe çeviride aranan regex.
+#   3. YERİNE          Yazılacak metin.
+#
+# Ek biçimleri ayrı satır olmalı: "derece" ünlüyle bittiği için kaynaştırma
+# alıyor (derece+si), "değer" almıyor (değer+i). Tek kuralla eşlenmiyorlar.
+
+# Evasion Rating -> Kaçınma Değeri  (sozluk.tsv'deki onaylı karşılık)
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Dd]erecesinden	[Evasion|Kaçınma] Değerinden
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Dd]erecesine	[Evasion|Kaçınma] Değerine
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Dd]erecesini	[Evasion|Kaçınma] Değerini
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Dd]erecesi	[Evasion|Kaçınma] Değeri
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Pp]uanı	[Evasion|Kaçınma] Değeri
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+[Oo]ranı	[Evasion|Kaçınma] Değeri
+\[Evasion(?:\|Evasion)?\]\s+Rating	\[Evasion\|Kaçınma\]\s+Rating'?[iı]?	[Evasion|Kaçınma] Değeri

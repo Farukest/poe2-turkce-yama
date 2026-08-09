@@ -1,0 +1,43 @@
+# Çeviri dışı bırakılan kolonlar — İngilizce kalır
+#
+# Gerekçe: eşya, yetenek ve para birimi ADLARI dış kaynaklarla eşleşmeli.
+# Ticaret sitesinde arama yaparken, build rehberi okurken veya wiki'ye
+# bakarken oyundaki isimle aradığın isim tutmalı. İsmin Türkçe olması bir
+# şey kazandırmıyor; asıl önemli olan o eşyanın/yeteneğin ne yaptığı, ve
+# o açıklamalar çevriliyor.
+#
+# Biçim:  tablo|KolonAdı      veya      tablo|off:BaytKonumu
+# (off: biçimi, şemada adı olmayan kolonlar için)
+
+# --- Eşya adları -------------------------------------------------------
+# Taban eşya adları. Para birimleri de burada: "Chaos Orb", "Exalted Orb",
+# "Divine Orb", "Waystone" hepsi baseitemtypes içinde.
+baseitemtypes|Name
+
+# Eşya ön/son ekleri: "Tempered", "of the Brute". Eşya adının parçası.
+mods|off:98
+
+# Sihirli eşya adı üreten kelime havuzu.
+words|Text2
+
+# --- Yetenek adları ----------------------------------------------------
+# Aktif yetenek adları: "Fireball", "Lightning Arrow".
+activeskills|DisplayedName
+
+# Pasif ağaç düğüm adları: "Blood Magic". Build rehberlerinde sürekli
+# İngilizce adıyla anılıyor.
+passiveskills|Name
+
+# Yetenek etkisi adları — güçlendirme çubuğunda görünenler.
+buffdefinitions|Name
+
+# --- Kozmetik (mikro işlem) adları -------------------------------------
+mtxtypes|Name
+mtxtypes|Type
+
+# --- ÇEVRİLMEYE DEVAM EDENLER (not amaçlı, buraya EKLEME) --------------
+# worldareas|Name        -> bölge adları, hikâyenin parçası
+# monstervarieties|Name  -> canavar adları, hikâyenin parçası
+# npcs|Name              -> NPC adları
+# keywordpopups|Term     -> mekanik adları, tanımıyla uyumlu olmalı
+# baseitemtypes dışındaki tüm Description / Directions / FlavourText

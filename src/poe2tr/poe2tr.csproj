@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!--
+			WinExe: paketlenen .exe cift tiklaninca konsol penceresi ACMAZ, pencere
+			acar. Gelistirme sirasindaki `dotnet poe2tr.dll <komut>` kullanimi
+			etkilenmiyor: orada surec dotnet.exe (konsol uygulamasi) tarafindan
+			barindiriliyor, konsol yerinde duruyor.
+		-->
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ApplicationDefaultFont>Segoe UI, 9pt</ApplicationDefaultFont>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<RollForward>LatestMajor</RollForward>
+		<AssemblyName>poe2tr</AssemblyName>
+		<RootNamespace>Poe2Tr</RootNamespace>
+		<InvariantGlobalization>false</InvariantGlobalization>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\tools\LibGGPK3\LibBundle3\LibBundle3.csproj" />
+	</ItemGroup>
+
+	<!-- Oodle native kutuphanesi: LibBundle3 bunu DllImport("oo2core") ile cagiriyor -->
+	<ItemGroup>
+		<None Include="..\..\tools\oodle\oo2core.dll">
+			<Link>oo2core.dll</Link>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,45 @@
+# =====================================================================
+#  ASLA COMMIT EDİLMEYECEK — tescilli, dağıtım hakkımız yok
+# =====================================================================
+# Oodle sıkıştırma kütüphanesi RAD Game Tools / Epic'e ait.
+# Bir kez commit edilirse git geçmişinde KALICI olur ve temizlemek zordur.
+oo2core*.dll
+oo2core*.so
+tools/oodle/
+
+# =====================================================================
+#  Derleme çıktıları
+# =====================================================================
+bin/
+obj/
+*.user
+paket/yayin/
+paket/PoE2-Turkce/
+paket/*.zip
+
+# =====================================================================
+#  Çalışma dosyaları
+# =====================================================================
+# work/ 330 MB; içinden yalnızca iki şey yayımlanıyor:
+#   · çeviri belleği (projenin asıl çıktısı)
+#   · Türkçe glif eklenmiş fontlar
+# Geri kalanı oyundan yeniden üretilebilen ara dosyalar ve koşu günlükleri.
+/work/*
+!/work/corpus/
+/work/corpus/*
+!/work/corpus/bellek.jsonl
+!/work/font-yamali/
+/work/font-yamali/*
+!/work/font-yamali/*.ttf
+
+# Yerel yedekler ve geçici çıktılar
+*.yedek
+*.tmp
+*.log
+*.pid
+
+# =====================================================================
+#  Kişisel / oturuma özel
+# =====================================================================
+CLAUDE.md
+.claude/

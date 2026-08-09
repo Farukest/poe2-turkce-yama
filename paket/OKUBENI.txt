@@ -1,0 +1,153 @@
+﻿===============================================================
+  PATH OF EXILE 2 — TÜRKÇE YAMA
+===============================================================
+
+Bu yama oyunun arayüzünü, diyaloglarını, görevlerini ve eşya
+özelliklerini Türkçeleştirir.
+
+Eşya, yetenek ve para birimi ADLARI bilerek İngilizce bırakıldı —
+ticaret sitesinde arama yaparken ve build rehberi okurken oyundaki
+isimle aradığın isim tutsun diye.
+
+
+---------------------------------------------------------------
+  KURULUM
+---------------------------------------------------------------
+
+1. ZIP'i bir klasöre çıkar (exe ve "veri" klasörü YAN YANA durmalı).
+2. Oyunu kapat.
+3. PoE2-Turkce.exe dosyasına çift tıkla — bir pencere açılır.
+4. Pencere oyunu kendi bulur. Bulamazsa "Değiştir…" ile klasörü seç.
+5. "KUR" düğmesine bas ve bekle.
+6. Alt tarafta yeşil "Tamamlandı" yazınca oyunu başlat.
+
+İlk kurulum birkaç dakika sürer. Pencerede satırlar akmaya devam ettiği
+sürece çalışıyordur, kapatma.
+
+WINDOWS UYARI VERİRSE:
+    "Windows bilgisayarınızı korudu" penceresi çıkabilir. Bunun sebebi
+    programın dijital sertifikayla imzalanmamış olması — imzalama ücretli
+    bir hizmet. Devam etmek için:
+        Ek bilgi  ->  Yine de çalıştır
+
+    Antivirüsün de şüphelenebilir; program oyun dosyalarını değiştirdiği
+    için bu beklenen bir durum.
+
+Türkçe görünmüyorsa:
+    Options -> UI -> Language -> Português (Brasil)
+    sonra oyunu yeniden başlat.
+
+Bu bir hata değil: oyuna yeni dil eklenemiyor, o yüzden
+kullanılmayan Portekizce dil yuvası Türkçe ile değiştiriliyor.
+
+
+---------------------------------------------------------------
+  OYUN GÜNCELLENDİĞİNDE
+---------------------------------------------------------------
+
+Her oyun yaması Türkçe dosyaları siler. Yeniden kurmak için AYNI programı
+çalıştırman yeterli:
+
+    PoE2-Turkce.exe
+
+Program daha önce kurduğunu hatırlar; ikinci seferden itibaren kendini
+"Yeniden Uygula" olarak adlandırır ve oyun klasörünü aramadan bilir.
+
+Bu program ayrıca güncellemeyle gelen YENİ metinleri de bulur.
+Onları çevirebilmesi için makinende yerel bir çeviri motoru olması
+gerekir (isteğe bağlı):
+
+    1. ollama.com adresinden Ollama'yı kur
+    2. Komut isteminde:  ollama pull gemma3:12b
+    3. Guncelle.exe'yi tekrar çalıştır
+
+Ollama yoksa yama yine kurulur, sadece yeni eklenen metinler
+İngilizce kalır. (Portekizce DEĞİL — program çevirisi olmayan her
+metne İngilizcesini yazar.)
+
+Not: çeviri modeli 8 GB'lık bir indirme ve ekran kartı ister.
+Sadece yamayı kullanacaksan buna ihtiyacın YOK.
+
+
+---------------------------------------------------------------
+  BİLMEN GEREKENLER
+---------------------------------------------------------------
+
+* Steam'de "Dosya bütünlüğünü doğrula" dersen yama tamamen silinir.
+  Zararı yok, Guncelle.exe ile geri yüklersin.
+
+* Oyun dosyalarını değiştirmek GGG kullanım şartlarına aykırıdır.
+  Yama tamamen görsel ve istemci tarafındadır, sunucuya hiçbir şey
+  göndermez; ama sıfır risk değildir. Kullanmak senin tercihin.
+
+* Çeviri yerel bir yapay zekâ modeliyle yapıldı. Terimler bir
+  sözlükle tutarlı tutuldu, stat satırları tek kalıba oturtuldu,
+  ama yer yer tuhaf cümleler görebilirsin.
+
+* İlk kurulum birkaç dakika sürer (oyunun 150 GB'lık paketleri
+  taranıyor). Program donmuş gibi görünse de bekle.
+
+
+---------------------------------------------------------------
+  oo2core HAKKINDA
+---------------------------------------------------------------
+
+Kurulum, oyunun paketlerini açmak için "oo2core" adlı sıkıştırma
+kütüphanesine ihtiyaç duyar. Bu kütüphane RAD Game Tools / Epic'in
+tescilli yazılımıdır ve bizim onu dağıtma hakkımız YOK; o yüzden
+pakete konulmadı.
+
+ÖNEMLİ: Path of Exile 2'nin KENDİSİ bu dosyayı getirmez (Oodle'ı
+programın içine gömmüşler). Yani bilgisayarında başka oyun yoksa
+kurulum bu adımda takılır ve senden dosyayı ister.
+
+Program onu senin makinende otomatik arar. Oodle kullanan pek çok
+oyun bu dosyayı kurulumuyla getirir:
+
+    EA Sports FC, Fortnite, Warframe, Baldur's Gate 3, Control,
+    Horizon Zero Dawn ve pek çok Unreal Engine oyunu
+
+Dosya adı "oo2core_9_win64.dll" gibi görünür. Program bulamazsa
+senden yolunu ister.
+
+
+---------------------------------------------------------------
+  SORUN GİDERME
+---------------------------------------------------------------
+
+"Oyun otomatik bulunamadı"
+    Path of Exile 2 klasörünü elle yapıştır. İçinde "Bundles2"
+    adlı bir klasör olmalı.
+
+"oo2core bulunamadı"
+    Yukarıdaki bölüme bak. Oodle kullanan bir oyunun klasöründe
+    ara: oo2core*win64.dll
+
+"Oyun çalışıyor görünüyor"
+    Oyunu ve varsa başlatıcısını tamamen kapat.
+
+Oyun Türkçe açılmıyor
+    Options -> UI -> Language -> Português (Brasil) seçili mi?
+    Seçtikten sonra oyunu YENİDEN BAŞLATMAN gerekir.
+
+Yazılar bozuk / kutu şeklinde görünüyor
+    Fontlar yazılamamış olabilir. Guncelle.exe'yi tekrar çalıştır.
+
+Her şeyi geri almak istiyorum
+    Steam -> Path of Exile 2 -> Özellikler -> Yüklü Dosyalar ->
+    Oyun dosyalarının bütünlüğünü doğrula
+
+
+---------------------------------------------------------------
+  İÇİNDEKİLER
+---------------------------------------------------------------
+
+  PoE2-Turkce.exe            Kurulum ve güncelleme (aynı program)
+  veri/bellek.jsonl          Çeviri belleği (94.000+ çeviri)
+  veri/sozluk.tsv            Terim sözlüğü
+  veri/fontlar/              Türkçe harf eklenmiş oyun fontları
+  lisanslar/                 Kullanılan açık kaynak bileşenlerin lisansları
+
+Kullanılan açık kaynak bileşenler: LibGGPK3 (bundle okuma/yazma),
+poe-tool-dev/dat-schema (tablo şeması). Lisansları lisanslar/
+klasöründe.

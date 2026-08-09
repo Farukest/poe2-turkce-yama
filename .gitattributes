@@ -1,0 +1,16 @@
+# Çeviri verisi ve sözlükler: git satır sonlarına dokunmasın.
+# Normalleştirme, bellek dosyasındaki kaçış dizilerini bozabilir.
+*.jsonl  -text
+*.tsv    -text
+
+# İkili dosyalar
+*.ttf    binary
+*.dll    binary
+*.zip    binary
+*.png    binary
+
+# Kaynak kod: normal davranış
+*.cs     text
+*.md     text
+*.ps1    text
+*.py     text

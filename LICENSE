@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2026 poe2-turkce-yama katkıda bulunanları
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+SCOPE / KAPSAM
+---------------------------------------------------------------------------
+
+The MIT license above applies to the SOURCE CODE of this project
+(src/, scripts/) only. It does NOT apply to:
+
+  * Translation data (work/corpus/bellek.jsonl, sozluk.tsv)
+    Derived from Path of Exile 2 game text. Copyright Grinding Gear Games.
+
+  * Font files (work/font-yamali/)
+    Modified versions of the game's own font files.
+
+  * oo2core (Oodle compression library)
+    Property of RAD Game Tools / Epic Games. NOT included in this repository
+    and must not be added to it.
+
+This project is not affiliated with or endorsed by Grinding Gear Games.
+
+---------------------------------------------------------------------------
+
+Third-party components under tools/ keep their own licenses:
+  * LibGGPK3          — https://github.com/aianlinb/LibGGPK3
+  * dat-schema        — https://github.com/poe-tool-dev/dat-schema

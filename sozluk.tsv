@@ -1,0 +1,405 @@
+# PoE 2 Türkçe Terim Sözlüğü
+#
+# Biçim:  İngilizce <TAB> Türkçe <TAB> Kategori <TAB> Not
+# Satır başındaki # yorum satırıdır, hat tarafından yok sayılır.
+#
+# Bu dosya çeviri isteminin içine gömülür. Buradaki karşılıklar bağlayıcıdır;
+# model bunların dışına çıkamaz. Değiştirmek istediğin satırı düzenleyip
+# çeviriyi yeniden çalıştırmak yeterli.
+#
+# ÖNEMLİ: Türkçe sütunu İngilizcesiyle AYNI ise "olduğu gibi bırak" demektir.
+# Eşya, yetenek ve para birimi adları böyle işaretlidir — açıklama metinlerinin
+# içinde geçtiklerinde de çevrilmezler. Bu adların hangi kolonlarda tutulduğu
+# ve neden dışarıda bırakıldığı için bkz. ceviri-disi.txt
+#
+# ---------------------------------------------------------------------------
+# DİLBİLGİSİ KURALLARI (modele ayrıca iletilecek)
+# ---------------------------------------------------------------------------
+# 1. Yüzde kalıbı:  "#% increased Fire Damage"  ->  "%# artırılmış Ateş Hasarı"
+#    Türkçede yüzde işareti sayıdan ÖNCE gelir. "50%" değil "%50".
+# 2. "more/less" ile "increased/reduced" oyunda farklı çarpanlardır, ayrı
+#    çevrilmeli: increased=artırılmış, more=daha fazla (asla ikisi de "artan").
+# 3. Terimler cümle içinde büyük harfle başlar (oyunun kendi üslubu):
+#    "Ateş Hasarı", "Enerji Kalkanı".
+# 4. İkinci tekil şahıs kullan: "Kazanırsın" değil "Kazanırsınız" değil ->
+#    oyunun üslubu doğrudan hitap: "Kazanırsın". Anlatı metinlerinde bu
+#    kural gevşer, doğal Türkçe tercih edilir.
+# 5. Eklerde ünlü uyumuna dikkat: "Ateş Hasarı'nı" değil "Ateş Hasarını".
+#
+# ---------------------------------------------------------------------------
+
+# === NİTELİKLER =============================================================
+Strength	Güç	nitelik
+Dexterity	Çeviklik	nitelik
+Intelligence	Zekâ	nitelik
+Spirit	Ruh	nitelik	PoE2'ye özgü kaynak
+Attribute	Nitelik	nitelik
+Attributes	Nitelikler	nitelik
+
+# === KAYNAKLAR VE SAVUNMA ===================================================
+Life	Can	savunma
+Mana	Mana	savunma	Çevrilmiyor, yerleşik terim
+Energy Shield	Enerji Kalkanı	savunma
+Armour	Zırh	savunma
+Evasion	Kaçınma	savunma
+Evasion Rating	Kaçınma Değeri	savunma
+Block	Blok	savunma
+Block Chance	Blok Şansı	savunma
+Resistance	Direnç	savunma
+Resistances	Dirençler	savunma
+Fire Resistance	Ateş Direnci	savunma
+Cold Resistance	Soğuk Direnci	savunma
+Lightning Resistance	Yıldırım Direnci	savunma
+Chaos Resistance	Kaos Direnci	savunma
+Maximum Resistance	Azami Direnç	savunma
+Ward	Koruma	savunma
+Runic Ward	Runik Koruma	savunma
+Regeneration	Yenilenme	savunma
+Recovery	Geri Kazanım	savunma
+Leech	Emme	savunma
+Recoup	Telafi	savunma
+Reservation	Rezervasyon	savunma
+Unreserved	Rezerve Edilmemiş	savunma
+
+# === HASAR TÜRLERİ ==========================================================
+Damage	Hasar	hasar
+Physical	Fiziksel	hasar
+Physical Damage	Fiziksel Hasar	hasar
+Fire	Ateş	hasar
+Fire Damage	Ateş Hasarı	hasar
+Cold	Soğuk	hasar
+Cold Damage	Soğuk Hasarı	hasar
+Lightning	Yıldırım	hasar
+Lightning Damage	Yıldırım Hasarı	hasar
+Chaos	Kaos	hasar
+Chaos Damage	Kaos Hasarı	hasar
+Elemental	Elemental	hasar
+Elemental Damage	Elemental Hasar	hasar
+Damage Types	Hasar Türleri	hasar
+Damage over Time	Zamana Yayılı Hasar	hasar
+Hit	Vuruş	hasar
+Hits	Vuruşlar	hasar
+Critical Hit	Kritik Vuruş	hasar
+Critical Strike	Kritik Vuruş	hasar
+Critical Chance	Kritik Şansı	hasar
+Critical Damage Bonus	Kritik Hasar Bonusu	hasar
+Penetration	Delme	hasar
+Overkill	Aşırı Öldürme	hasar
+Reflect	Yansıtma	hasar
+
+# === RAHATSIZLIKLAR (AILMENTS) ==============================================
+Ailment	Rahatsızlık	rahatsızlık
+Ailments	Rahatsızlıklar	rahatsızlık
+Ignite	Yakma	rahatsızlık
+Ignited	Yanmış	rahatsızlık
+Burning	Yanma	rahatsızlık
+Freeze	Dondurma	rahatsızlık
+Frozen	Donmuş	rahatsızlık
+Chill	Üşütme	rahatsızlık
+Chilled	Üşümüş	rahatsızlık
+Shock	Şok	rahatsızlık
+Shocked	Şoklanmış	rahatsızlık
+Electrocute	Elektrik Çarpması	rahatsızlık
+Bleeding	Kanama	rahatsızlık
+Poison	Zehir	rahatsızlık
+Poisoned	Zehirlenmiş	rahatsızlık
+Stun	Sersemletme	rahatsızlık
+Stunned	Sersemlemiş	rahatsızlık
+Heavy Stun	Ağır Sersemletme	rahatsızlık
+Daze	Baygınlık	rahatsızlık
+Blind	Körleştirme	rahatsızlık
+Maim	Sakatlama	rahatsızlık
+Hinder	Engelleme	rahatsızlık
+Wither	Soldurma	rahatsızlık
+Pin	Sabitleme	rahatsızlık
+Knockback	Geri İtme	rahatsızlık
+Curse	Lanet	rahatsızlık
+Curses	Lanetler	rahatsızlık
+Mark	İşaret	rahatsızlık
+Exposure	Açığa Çıkarma	rahatsızlık
+
+# === BECERİ TÜRLERİ =========================================================
+Skill	Yetenek	beceri
+Skills	Yetenekler	beceri
+Attack	Saldırı	beceri
+Attacks	Saldırılar	beceri
+Spell	Büyü	beceri
+Spells	Büyüler	beceri
+Melee	Yakın Dövüş	beceri
+Ranged	Menzilli	beceri
+Projectile	Mermi	beceri
+Projectiles	Mermiler	beceri
+Area of Effect	Etki Alanı	beceri
+Duration	Süre	beceri
+Minion	Yaratık	beceri
+Minions	Yaratıklar	beceri
+Aura	Aura	beceri
+Herald	Haberci	beceri
+Totem	Totem	beceri
+Trap	Tuzak	beceri
+Mine	Mayın	beceri
+Brand	Damga	beceri
+Warcry	Savaş Çığlığı	beceri
+Channelling	Yoğunlaştırma	beceri
+Trigger	Tetikleme	beceri
+Strike	Darbe	beceri	"Hit" (Vuruş) ile karışmasın diye ayrıldı
+Slam	Çarpma	beceri
+Movement	Hareket	beceri
+Travel	Yolculuk	beceri
+Persistent	Kalıcı	beceri
+Meta	Meta	beceri
+Support	Destek	beceri
+Buff	Güçlendirme	beceri
+Debuff	Zayıflatma	beceri
+Charge	Yük	beceri
+Charges	Yükler	beceri
+Power Charge	Güç Yükü	beceri
+Frenzy Charge	Çılgınlık Yükü	beceri
+Endurance Charge	Dayanıklılık Yükü	beceri
+Rage	Öfke	beceri
+Energy	Enerji	beceri
+Combo	Kombo	beceri
+Cooldown	Bekleme Süresi	beceri
+Cast Speed	Büyü Hızı	beceri
+Attack Speed	Saldırı Hızı	beceri
+Movement Speed	Hareket Hızı	beceri
+Accuracy	İsabet	beceri
+Reload	Şarjör Doldurma	beceri
+
+# === EŞYALAR ================================================================
+Item	Eşya	eşya
+Items	Eşyalar	eşya
+Weapon	Silah	eşya
+Weapons	Silahlar	eşya
+Body Armour	Gövde Zırhı	eşya
+Helmet	Miğfer	eşya
+Gloves	Eldiven	eşya
+Boots	Bot	eşya
+Shield	Kalkan	eşya
+Quiver	Sadak	eşya
+Ring	Yüzük	eşya
+Amulet	Kolye	eşya
+Belt	Kemer	eşya
+Flask	Şişe	eşya
+Life Flask	Can Şişesi	eşya
+Mana Flask	Mana Şişesi	eşya
+Charm	Muska	eşya
+Jewel	Mücevher	eşya
+Rune	Run	eşya
+Soul Core	Ruh Çekirdeği	eşya
+Gem	Taş	eşya
+Skill Gem	Yetenek Taşı	eşya
+Support Gem	Destek Taşı	eşya
+Spirit Gem	Ruh Taşı	eşya
+Uncut Skill Gem	İşlenmemiş Yetenek Taşı	eşya
+Socket	Yuva	eşya
+Sockets	Yuvalar	eşya
+Socketed	Yuvalanmış	eşya
+Quality	Kalite	eşya
+Level	Seviye	eşya
+Item Level	Eşya Seviyesi	eşya
+Requirements	Gereksinimler	eşya
+Corrupted	Bozulmuş	eşya
+Identified	Tanımlanmış	eşya
+Unidentified	Tanımlanmamış	eşya
+Equipped	Kuşanılmış	eşya
+Two Handed	Çift Elli	eşya
+One Handed	Tek Elli	eşya
+Off Hand	İkincil El	eşya
+Main Hand	Birincil El	eşya
+Weapon Set	Silah Seti	eşya
+
+# === NADİRLİK VE MODİFİYELER ================================================
+Rarity	Nadirlik	nadirlik
+Normal	Normal	nadirlik
+Magic	Sihirli	nadirlik
+Rare	Nadir	nadirlik
+Unique	Eşsiz	nadirlik
+Modifier	Değiştirici	nadirlik
+Modifiers	Değiştiriciler	nadirlik
+Prefix	Ön Ek	nadirlik
+Suffix	Son Ek	nadirlik
+Implicit	Örtük	nadirlik
+Explicit	Açık	nadirlik
+Enchantment	Büyüleme	nadirlik
+increased	artırılmış	kalıp	"more" ile karıştırma
+reduced	azaltılmış	kalıp	"less" ile karıştırma
+more	daha fazla	kalıp	Ayrı çarpan, "increased" değil
+less	daha az	kalıp	Ayrı çarpan, "reduced" değil
+added	eklenmiş	kalıp
+additional	ek	kalıp
+Adds	Ekler	kalıp
+Gain	Kazan	kalıp
+Grants	Sağlar	kalıp
+Chance	Şans	kalıp
+per	başına	kalıp
+while	iken	kalıp
+Maximum	Azami	kalıp
+Minimum	Asgari	kalıp
+
+# === PARA BİRİMLERİ =========================================================
+# Bunlar EŞYA ADI. Türkçe sütunu İngilizcesiyle aynıysa "olduğu gibi bırak"
+# demektir — açıklama metinlerinin içinde geçtiğinde de çevrilmez.
+# Böylece ticaret sitesinde ve rehberlerde aradığın isimle oyundaki isim tutar.
+Chaos Orb	Chaos Orb	para	İSİM — çevrilmez
+Exalted Orb	Exalted Orb	para	İSİM — çevrilmez
+Divine Orb	Divine Orb	para	İSİM — çevrilmez
+Regal Orb	Regal Orb	para	İSİM — çevrilmez
+Vaal Orb	Vaal Orb	para	İSİM — çevrilmez
+Orb of Transmutation	Orb of Transmutation	para	İSİM — çevrilmez
+Orb of Augmentation	Orb of Augmentation	para	İSİM — çevrilmez
+Orb of Alchemy	Orb of Alchemy	para	İSİM — çevrilmez
+Orb of Annulment	Orb of Annulment	para	İSİM — çevrilmez
+Mirror of Kalandra	Mirror of Kalandra	para	İSİM — çevrilmez
+Scroll of Wisdom	Scroll of Wisdom	para	İSİM — çevrilmez
+Waystone	Waystone	para	İSİM — çevrilmez (oyunsonu haritası)
+Orb	Orb	para	İSİM parçası — çevrilmez
+Shard	Shard	para	İSİM parçası — çevrilmez
+Splinter	Splinter	para	İSİM parçası — çevrilmez
+Currency	Para Birimi	para	Arayüz kategorisi, çevrilir
+
+# === ATLAS VE OYUN SONU =====================================================
+Map	Harita	oyunsonu
+Maps	Haritalar	oyunsonu
+Atlas	Atlas	oyunsonu
+Tower	Kule	oyunsonu
+Precursor Tablet	Öncü Tablet	oyunsonu
+Boss	Patron	oyunsonu
+Pinnacle	Zirve	oyunsonu
+Breach	Yarık	oyunsonu
+Delirium	Sanrı	oyunsonu
+Ritual	Ayin	oyunsonu
+Expedition	Sefer	oyunsonu
+Sanctum	Mabet	oyunsonu
+Trial	Sınav	oyunsonu
+Ascendancy	Yükseliş	oyunsonu
+Ascendancy Point	Yükseliş Puanı	oyunsonu
+Corruption	Bozulma	oyunsonu
+
+# === KARAKTER VE ARAYÜZ =====================================================
+Character	Karakter	arayüz
+Class	Sınıf	arayüz
+Passive Skill	Pasif Yetenek	arayüz
+Passive Skill Tree	Pasif Yetenek Ağacı	arayüz
+Notable	Kayda Değer	arayüz
+Keystone	Kilit Taşı	arayüz
+Respec	Yeniden Dağıtım	arayüz
+Experience	Deneyim	arayüz
+Inventory	Envanter	arayüz
+Stash	Sandık	arayüz
+Vendor	Satıcı	arayüz
+Trade	Takas	arayüz
+Waypoint	Ara Nokta	arayüz
+Checkpoint	Kontrol Noktası	arayüz
+Portal	Portal	arayüz
+Hideout	Sığınak	arayüz
+Town	Şehir	arayüz
+Quest	Görev	arayüz
+Objective	Hedef	arayüz
+Reward	Ödül	arayüz
+Achievement	Başarım	arayüz
+League	Lig	arayüz
+Hardcore	Zorlu	arayüz
+Softcore	Standart	arayüz
+Solo Self-Found	Tek Başına Kendi Bulduğu	arayüz
+Settings	Ayarlar	arayüz
+Options	Seçenekler	arayüz
+
+# === SINIFLAR ===============================================================
+Warrior	Savaşçı	sınıf
+Witch	Cadı	sınıf
+Ranger	Korucu	sınıf	"Huntress" (Avcı) ile karışmasın diye
+Monk	Keşiş	sınıf
+Mercenary	Paralı Asker	sınıf
+Sorceress	Büyücü	sınıf
+Huntress	Avcı	sınıf
+Druid	Druid	sınıf
+Marauder	Yağmacı	sınıf
+Duelist	Düellocu	sınıf
+Templar	Tapınakçı	sınıf
+Shadow	Gölge	sınıf
+Scion	Vâris	sınıf
+
+# === PoE2 MEKANİKLERİ (korpus frekans analizinden eklendi) ==================
+Augment	Takviye	mekanik	Orb of Augmentation ile aynı kök
+Command	Komuta	mekanik	Yaratıklara emir verme
+Shapeshift	Şekil Değiştirme	mekanik	Druid
+Presence	Varlık	mekanik	"in your Presence" = "Varlığında"
+Glory	Şan	mekanik	Huntress kaynağı
+Honour	Onur	mekanik	Sanctum
+Remnant	Kalıntı	mekanik
+Consume	Tüketme	mekanik
+Magnitude	Büyüklük	mekanik	Rahatsızlık şiddeti
+Chain	Sekme	mekanik	Mermi sekmesi
+Fork	Çatallanma	mekanik
+Pierce	Delip Geçme	mekanik
+Slow	Yavaşlatma	mekanik
+Revive	Diriltme	mekanik
+Detonate	Patlatma	mekanik
+Culling Strike	Ayıklama Darbesi	mekanik
+Onslaught	Saldırganlık	mekanik
+Fortify	Tahkimat	mekanik
+Elusive	Ele Geçmez	mekanik
+Adrenaline	Adrenalin	mekanik
+Offering	Adak	mekanik
+Infusion	Aşılama	mekanik
+Overcharge	Aşırı Yükleme	mekanik
+Barrage	Yaylım Ateşi	mekanik
+Volley	Salvo	mekanik
+Nova	Nova	mekanik
+Crafted	İşlenmiş	mekanik
+Crafting	İşleme	mekanik
+Stun Threshold	Sersemletme Eşiği	mekanik
+Ailment Threshold	Rahatsızlık Eşiği	mekanik
+Life Regeneration	Can Yenilenmesi	mekanik
+
+# === SİLAH TÜRLERİ ==========================================================
+Bow	Yay	silah
+Crossbow	Tatar Yayı	silah
+Spear	Mızrak	silah
+Mace	Topuz	silah
+Sword	Kılıç	silah
+Axe	Balta	silah
+Dagger	Hançer	silah
+Claw	Pençe	silah
+Staff	Asa	silah
+Quarterstaff	Uzun Asa	silah
+Wand	Değnek	silah
+Sceptre	Hükümdar Asası	silah
+Flail	Gürz	silah
+Buckler	Küçük Kalkan	silah
+Focus	Odak	silah
+Arrow	Ok	silah
+Bolt	Kısa Ok	silah	Tatar yayı oku
+Grenade	El Bombası	silah
+Ammunition	Cephane	silah
+
+# === YARATIKLAR =============================================================
+Companion	Yoldaş	yaratık
+Spectre	Hayalet	yaratık
+Skeleton	İskelet	yaratık
+Zombie	Zombi	yaratık
+Golem	Golem	yaratık
+Sentinel	Nöbetçi	yaratık
+Construct	Yapıt	yaratık
+
+# === VARLIKLAR VE DÜNYA =====================================================
+Monster	Canavar	dünya
+Monsters	Canavarlar	dünya
+Enemy	Düşman	dünya
+Enemies	Düşmanlar	dünya
+Player	Oyuncu	dünya
+Ally	Müttefik	dünya
+Allies	Müttefikler	dünya
+Undead	Ölümsüz	dünya
+Demon	İblis	dünya
+Beast	Yabani Hayvan	dünya	"Minion" (Yaratık) ile karışmasın diye ayrıldı
+Exile	Sürgün	dünya
+Wraeclast	Wraeclast	dünya	Yer adı, çevrilmez
+Oriath	Oriath	dünya	Yer adı, çevrilmez
+Vaal	Vaal	dünya	Özel ad, çevrilmez
+Karui	Karui	dünya	Özel ad, çevrilmez
+Ezomyte	Ezomit	dünya
+Maraketh	Maraketh	dünya	Özel ad, çevrilmez
+Heavy Strike	Heavy Strike	yetenek	İSİM — çevrilmez
+Cleave	Cleave	yetenek	İSİM — çevrilmez
