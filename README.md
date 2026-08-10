@@ -138,7 +138,7 @@ Gerekenler: .NET 8 SDK, Python 3 + `fonttools` (yalnız font yamalamak için).
 `tools/` altındaki iki bağımlılık **submodule**, o yüzden `--recursive` şart:
 
 ```bash
-git clone --recursive https://github.com/<kullanici>/poe2-turkce-yama.git
+git clone --recursive https://github.com/EsintisiYeter/poe2-turkce-yama.git
 cd poe2-turkce-yama
 dotnet build src/poe2tr -c Release
 powershell -File scripts/paket-yap.ps1     # dağıtılabilir ZIP üretir
