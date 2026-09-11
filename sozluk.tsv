@@ -411,3 +411,56 @@ Instil	Aşılamak	mekanik
 Notable	Kayda Değer	pasif
 Conditional	Koşullu	etiket
 Sustained	Sürekli	etiket
+
+# === 0.4 İLE GELEN VE SÖZLÜKTE KARŞILIĞI OLMAYAN TERİMLER ===
+# Bu blok, güncel istemcide belleğe yeni eklenen 2.329 metni çevirirken
+# kullanılan karşılıkları kayda geçiriyor. Katılmadığın satırı değiştir,
+# çeviriyi yeniden çalıştırmak yeterli.
+Deflect	Saptırma	savunma
+Deflection Rating	Saptırma Değeri	savunma
+Guard	Muhafaza	savunma	"Ward" (Koruma) ile çakışmasın diye ayrıldı
+Toughness	Sağlamlık	savunma	"Endurance" (Dayanıklılık) ile çakışmasın diye
+Pre-mitigation	Azaltım Öncesi	savunma	Ailment büyüklüğü hesabında geçer
+Parry	Savuşturma	beceri
+Parried	Savuşturulmuş	beceri	Parry'nin bıraktığı zayıflatma
+Targe	Yuvarlak Kalkan	silah	"Buckler" (Küçük Kalkan) ayrı bir tür
+Retaliate	Karşılık Verme	beceri	Thorns mekaniği
+Cascadable	Basamaklanabilir	beceri
+Impale	Şişleme	rahatsızlık
+Incision	Kesik	rahatsızlık	Kanama şansını biriktirir
+Broken Stance	Bozuk Duruş	rahatsızlık
+Riven Armour	Yarık Zırh	rahatsızlık
+Sundered Armour	Parçalanmış Zırh	rahatsızlık
+Easy Target	Kolay Hedef	rahatsızlık
+Anaemia	Kansızlık	rahatsızlık
+Petrify	Taşlaşma	rahatsızlık
+Hobble	Topallatma	rahatsızlık
+Debilitate	Güçten Düşürme	rahatsızlık
+Drenched	Sırılsıklam	rahatsızlık
+Grasping Vines	Kavrayan Sarmaşık	rahatsızlık
+Binding Chains	Bağlayan Zincirler	rahatsızlık
+Faerie Fire	Peri Ateşi	rahatsızlık
+Gruelling Madness	Yıpratıcı Delilik	rahatsızlık
+Abyssal Wasting	Uçurum Çürümesi	rahatsızlık
+Flammability	Yanıcılık	rahatsızlık	Ignite şansını veren debuff, Ignite'ın kendisi değil
+Aftershock	Artçı Sarsıntı	mekanik	Slam mekaniği
+Affinity	Yakınlık	mekanik	Elemental Affinity
+Adaptation	Uyum	mekanik
+Overwhelm	Aşma	mekanik	Fiziksel hasar azaltımını aşar
+Surpass	Aşma	mekanik	Şansın %100'ü geçebilmesi
+Isolated	Yalıtılmış	mekanik
+Volatility	Kararsızlık	mekanik
+Whirlwind	Kasırga	mekanik
+Tailwind	Arka Rüzgâr	mekanik
+Unbound Fury	Zincirsiz Öfke	mekanik
+Sacred Water	Kutsal Su	mekanik	Sanctum kaynağı
+Mote	Zerre	mekanik	Virtuous Barrier
+Thorns	Dikenler	mekanik
+Runic	Runik	mekanik	Expedition canavar sıfatı
+Strongbox	Kasa	oyunsonu
+Shrine	Türbe	oyunsonu	"Sanctum" (Mabet) ile çakışmasın diye
+Ruin	Yıkım	oyunsonu	Ultimatum
+Tribute	Tribute	oyunsonu	İSİM, çevrilmez
+Essence	Essence	esya	İSİM, çevrilmez
+Verisium	Verisium	esya	İSİM, çevrilmez
+Omen	Alamet	esya	"Omen of ..." ürün adları İngilizce kalır
