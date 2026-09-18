@@ -97117,3 +97117,80 @@
 {"en": "Your Wind Blast becomes a Stonefist Effect.", "tr": "Wind Blast'ın Stonefist Efekt olur."}
 {"en": "Your Wind Serpent's Fury becomes a Spirit Warden Effect.", "tr": "Wind Serpent's Fury'nin Spirit Warden Efekt olur."}
 {"en": "Yours Rapid Shot becomes a Phantasmal Effect.", "tr": "Rapid Shot'ın Phantasmal Efekt olur."}
+{"en": "List of Modifiers affecting excavated Monsters and Chests at the most recently placed Explosive:", "tr": "En son yerleştirilen Patlayıcıda kazılıp çıkarılan Canavarları ve Sandıkları etkileyen Değiştiricilerin listesi:"}
+{"en": "[ContainsExpedition|Expeditions] contain {0} Additional [ExpeditionSentinel|Verisium Sentries] in Map", "tr": "Haritadaki [ContainsExpedition|Seferler] {0} Ek [ExpeditionSentinel|Verisium Nöbetçisi] içerir"}
+{"en": "{0}% increased [ContainsExpedition|Expedition] Explosive Area of Effect in Map", "tr": "Haritada %{0} artırılmış [ContainsExpedition|Sefer] Patlayıcı Etki Alanı"}
+{"en": "Vaal Relics", "tr": "Vaal Kalıntıları"}
+{"en": "Vaal Relics are found within Frigid Bluffs [GrandExpedition|Grand Expeditions] and as a modifier on [ExpeditionAugment|Expedition Tablets].\r\n\r\nThese Relics can be unearthed, similar to [ContainsExpedition2|Verisium Remnants] and add their modifiers to anything excavated with the explosive that destroys the Relic and any excavated with future explosives in the chain.\r\n\r\nUnlike Verisium Remnants, Vaal Relics have predefined modifiers that cannot be modified.", "tr": "Vaal Kalıntıları, Buzlu Kayalıklar [GrandExpedition|Büyük Seferlerinde] ve [ExpeditionAugment|Sefer Tabletlerinde] bir değiştirici olarak bulunur.\n\nBu Kalıntılar [ContainsExpedition2|Verisium Kalıntılarına] benzer şekilde kazılıp çıkarılabilir ve Kalıntıyı yok eden patlayıcıyla kazılan her şeye, ayrıca zincirdeki sonraki patlayıcılarla kazılan her şeye kendi değiştiricilerini ekler.\n\nVerisium Kalıntılarının aksine, Vaal Kalıntılarının değiştirilemeyen önceden tanımlı değiştiricileri vardır."}
+{"en": "Adds an azmeri effect when you dodge roll. Use the tiers to choose between Wild, Vivid, Primal or Sacred spirit themes. Use the tiers to choose between Wild, Vivid, Primal or Sacred spirit themes, or have the effect change based on your highest attribute.", "tr": "Yuvarlandığında bir azmeri efekti ekler. Wild, Vivid, Primal veya Sacred ruh temaları arasında seçim yapmak için kademeleri kullan. Wild, Vivid, Primal veya Sacred ruh temaları arasında seçim yapmak için kademeleri kullan, ya da efekt en yüksek niteliğine göre değişsin."}
+{"en": "Adds the Azmeri Weapon Effect to any equipped weapon. Use the tiers to choose between Wild, Vivid, Primal or Sacred spirit themes, or have the effect change based on your highest attribute.", "tr": "Kuşanılmış herhangi bir silaha Azmeri Weapon Effect ekler. Wild, Vivid, Primal veya Sacred ruh temaları arasında seçim yapmak için kademeleri kullan, ya da efekt en yüksek niteliğine göre değişsin."}
+{"en": "Adds the Breachflame Weapon Effect to any equipped weapon.", "tr": "Kuşanılmış herhangi bir silaha Breachflame Weapon Effect ekler."}
+{"en": "Changes the appearance of any equipped body armour to the Chayula Body Armour.", "tr": "Kuşanılmış herhangi bir gövde zırhının görünümünü Chayula Body Armour olarak değiştirir."}
+{"en": "Changes the appearance of any equipped boots to the Chayula Boots.", "tr": "Kuşanılmış herhangi bir botun görünümünü Chayula Boots olarak değiştirir."}
+{"en": "Changes the appearance of any equipped gloves to the Chayula Gloves.", "tr": "Kuşanılmış herhangi bir eldivenin görünümünü Chayula Gloves olarak değiştirir."}
+{"en": "Changes the appearance of any equipped helmet to the Chayula Helmet.", "tr": "Kuşanılmış herhangi bir miğferin görünümünü Chayula Helmet olarak değiştirir."}
+{"en": "Changes the appearance of any equipped helmet to the Spirit Warden Helmet. The horns on this helmet will glow in the same colour as your equipped Spirit Warden character skin.", "tr": "Kuşanılmış herhangi bir miğferin görünümünü Spirit Warden Helmet olarak değiştirir. Bu miğferdeki boynuzlar, kuşandığın Spirit Warden karakter görünümüyle aynı renkte parlar."}
+{"en": "Replaces the appearance of Power, Frenzy and Endurance charges with a Stonefist version.", "tr": "Güç, Çılgınlık ve Dayanıklılık yüklerinin görünümünü Stonefist sürümüyle değiştirir."}
+{"en": "Replaces the appearance of Power, Frenzy and Endurance charges with an Azmeri version. Use the tiers to choose between Wild, Vivid, Primal or Sacred spirit themes, or have the appearance of the charges change based on your highest attribute.", "tr": "Güç, Çılgınlık ve Dayanıklılık yüklerinin görünümünü Azmeri sürümüyle değiştirir. Wild, Vivid, Primal veya Sacred ruh temaları arasında seçim yapmak için kademeleri kullan, ya da yüklerin görünümü en yüksek niteliğine göre değişsin."}
+{"en": "Replaces the appearance of your character skin with the Chayula character skin.", "tr": "Karakter görünümünü Chayula karakter görünümüyle değiştirir."}
+{"en": "Replaces the appearance of your character with the Spirit Warden character skin. Use the tiers to choose between Wild, Vivid, Primal or Sacred spirit themes, or have the character skin change based on your highest attribute.", "tr": "Karakterinin görünümünü Spirit Warden karakter görünümüyle değiştirir. Wild, Vivid, Primal veya Sacred ruh temaları arasında seçim yapmak için kademeleri kullan, ya da karakter görünümü en yüksek niteliğine göre değişsin."}
+{"en": "Your Armour Piercing Rounds becomes a Verisium Effect.", "tr": "Armour Piercing Rounds'ın Verisium Efekt olur."}
+{"en": "Your Contagion becomes a Chaosborn Effect.", "tr": "Contagion'ın Chaosborn Efekt olur."}
+{"en": "Your Dark Effigy becomes a Chaosborn Effect.", "tr": "Dark Effigy'nin Chaosborn Efekt olur."}
+{"en": "Your Emergency Reload becomes a Verisium Effect.", "tr": "Emergency Reload'ın Verisium Efekt olur."}
+{"en": "Your Essence Drain becomes a Chaosborn Effect.", "tr": "Essence Drain'in Chaosborn Efekt olur."}
+{"en": "Your Flash Grenade becomes a Verisium Effect.", "tr": "Flash Grenade'in Verisium Efekt olur."}
+{"en": "Your Fragmentation Rounds becomes a Verisium Effect.", "tr": "Fragmentation Rounds'ın Verisium Efekt olur."}
+{"en": "Your Gas Grenade becomes a Verisium Effect.", "tr": "Gas Grenade'in Verisium Efekt olur."}
+{"en": "Your Glacial Bolt becomes a Verisium Effect.", "tr": "Glacial Bolt'un Verisium Efekt olur."}
+{"en": "Your Hailstorm Rounds becomes a Verisium Effect.", "tr": "Hailstorm Rounds'ın Verisium Efekt olur."}
+{"en": "Your Hexblast becomes a Chaosborn Effect.", "tr": "Hexblast'ın Chaosborn Efekt olur."}
+{"en": "Your High Velocity Rounds becomes a Verisium Effect.", "tr": "High Velocity Rounds'ın Verisium Efekt olur."}
+{"en": "Your Ice Shards becomes a Verisium Effect.", "tr": "Ice Shards'ın Verisium Efekt olur."}
+{"en": "Your Mortar Cannon becomes a Verisium Effect.", "tr": "Mortar Cannon'ın Verisium Efekt olur."}
+{"en": "Your Oil Grenade becomes a Verisium Effect.", "tr": "Oil Grenade'in Verisium Efekt olur."}
+{"en": "Your Permafrost Bolts becomes a Verisium Effect.", "tr": "Permafrost Bolts'ın Verisium Efekt olur."}
+{"en": "Your Profane Ritual becomes a Chaosborn Effect.", "tr": "Profane Ritual'ın Chaosborn Efekt olur."}
+{"en": "Your Shard Scavenger becomes a Verisium Effect.", "tr": "Shard Scavenger'ın Verisium Efekt olur."}
+{"en": "Your Siege Cascade becomes a Verisium Effect.", "tr": "Siege Cascade'in Verisium Efekt olur."}
+{"en": "Check on the Hooded One in the Ziggurat Refuge", "tr": "Ziggurat Sığınağı'ndaki Kapüşonlu Biri'ne bak"}
+{"en": "Check on the Hooded One in the Ziggurat Refuge.", "tr": "Ziggurat Sığınağı'ndaki Kapüşonlu Biri'ne bak."}
+{"en": "Complete the Ritual before summoning Alva.", "tr": "Alva'yı çağırmadan önce Ayini tamamla."}
+{"en": "Count Geonor has already been defeated. Use a Waystone to create a new Western Enigma Chamber Map Area.", "tr": "Kont Geonor çoktan yenildi. Yeni bir Batı Enigma Odası Harita Bölgesi oluşturmak için bir Waystone kullan."}
+{"en": "Create a new Eastern Enigma Chamber Map Area", "tr": "Yeni bir Doğu Enigma Odası Harita Bölgesi oluştur"}
+{"en": "Create a new Matriarch Halls Map Area", "tr": "Yeni bir Matriark Salonları Harita Bölgesi oluştur"}
+{"en": "Create a new Patriarch Halls Map Area", "tr": "Yeni bir Patriark Salonları Harita Bölgesi oluştur"}
+{"en": "Create a new Western Enigma Chamber Map Area", "tr": "Yeni bir Batı Enigma Odası Harita Bölgesi oluştur"}
+{"en": "Defeat Phyx, Sentinel of the Spark", "tr": "Phyx, Kıvılcım'ın Koruyucusu'nu yen"}
+{"en": "Defeat Phyx, Sentinel of the Spark\r\nTravel to the Matriarch Halls", "tr": "Phyx, Kıvılcım'ın Koruyucusu'nu yen\nMatriark Salonları'na git"}
+{"en": "Defeat Phyx, Sentinel of the Spark.\r\nTravel to the Matriarch Halls.", "tr": "Phyx, Kıvılcım'ın Koruyucusu'nu yen.\nMatriark Salonları'na git."}
+{"en": "Doryani has already been defeated. Use a Waystone to create a new Eastern Enigma Chamber Map Area.", "tr": "Doryani çoktan yenildi. Yeni bir Doğu Enigma Odası Harita Bölgesi oluşturmak için bir Waystone kullan."}
+{"en": "Enter the Arena", "tr": "Arena'ya gir"}
+{"en": "Explore Patriarch Halls.", "tr": "Patriark Salonları'nı keşfet."}
+{"en": "Explore the Burning Monolith", "tr": "Yanan Monolit'i keşfet"}
+{"en": "Explore the Burning Monolith.", "tr": "Yanan Monolit'i keşfet."}
+{"en": "Pick up the Origin Spark\r\nTravel to the Matriarch Halls", "tr": "Köken Kıvılcımı'nı al\nMatriark Salonları'na git"}
+{"en": "Reach the Burning Monolith", "tr": "Yanan Monolit'e ulaş"}
+{"en": "Reach the Burning Monolith.", "tr": "Yanan Monolit'e ulaş."}
+{"en": "Reach the Western Gateway.\r\nReach the Eastern Gateway.", "tr": "Batı Geçidi'ne ulaş.\nDoğu Geçidi'ne ulaş."}
+{"en": "Speak to the Hooded One in Kingsmarch to travel to the Ziggurat Refuge.", "tr": "Ziggurat Sığınağı'na gitmek için Kingsmarch'taki Kapüşonlu Biri ile konuş."}
+{"en": "Speak to the Hooded One to travel to the Ziggurat Refuge", "tr": "Ziggurat Sığınağı'na gitmek için Kapüşonlu Biri ile konuş"}
+{"en": "Take a new Inscribed Ultimatum from The Trialmaster", "tr": "Deneme Ustası'ndan yeni bir Yazılmış Ultimatum al"}
+{"en": "The Trialmaster awaits your next attempt in the entrance to The Temple of Chaos. Take the Inscribed Ultimatum from him.", "tr": "Deneme Ustası, Kaos Tapınağı'nın girişinde bir sonraki denemeni bekliyor. Yazılmış Ultimatum'u ondan al."}
+{"en": "Travel to Kingsmarch.", "tr": "Kingsmarch'a git."}
+{"en": "Travel to the Halls", "tr": "Salonlar'a git"}
+{"en": "Travel to the Patriarch Halls\r\nTravel to the Matriarch Halls", "tr": "Patriark Salonları'na git\nMatriark Salonları'na git"}
+{"en": "Travel to the Patriarch Halls.\r\nTravel to the Matriarch Halls.", "tr": "Patriark Salonları'na git.\nMatriark Salonları'na git."}
+{"en": "Travel to the Western Enigma Chamber.", "tr": "Batı Enigma Odası'na git."}
+{"en": "Use a Waystone to create a new Eastern Enigma Chamber Map Area", "tr": "Yeni bir Doğu Enigma Odası Harita Bölgesi oluşturmak için bir Waystone kullan"}
+{"en": "Use a Waystone to create a new Matriarch Halls Map Area", "tr": "Yeni bir Matriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan"}
+{"en": "Use a Waystone to create a new Matriarch Halls Map Area.", "tr": "Yeni bir Matriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan."}
+{"en": "Use a Waystone to create a new Patriarch Halls Map Area", "tr": "Yeni bir Patriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan"}
+{"en": "Use a Waystone to create a new Patriarch Halls Map Area\r\nTravel to the Matriarch Halls", "tr": "Yeni bir Patriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan\nMatriark Salonları'na git"}
+{"en": "Use a Waystone to create a new Patriarch Halls Map Area.", "tr": "Yeni bir Patriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan."}
+{"en": "Use a Waystone to create a new Patriarch Halls Map Area.\r\nTravel to the Matriarch Halls.", "tr": "Yeni bir Patriark Salonları Harita Bölgesi oluşturmak için bir Waystone kullan.\nMatriark Salonları'na git."}
+{"en": "Use a Waystone to create a new Western Enigma Chamber Map Area", "tr": "Yeni bir Batı Enigma Odası Harita Bölgesi oluşturmak için bir Waystone kullan"}
+{"en": "You have unlocked the door. Enter the Arena and explore the Burning Monolith further.", "tr": "Kapının kilidini açtın. Arena'ya gir ve Yanan Monolit'i daha ileri keşfet."}
+{"en": "Seer of the Maji", "tr": "Seer of the Maji"}
+{"en": "Spirit Warden", "tr": "Spirit Warden"}
+{"en": "Stonefist", "tr": "Stonefist"}
