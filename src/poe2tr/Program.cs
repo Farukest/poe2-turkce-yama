@@ -780,7 +780,27 @@ switch (cmd) {
 					var e = res.English.ReadString(r, col.Offset);
 					var p = res.Localized.ReadString(r, col.Offset);
 					if (string.IsNullOrEmpty(e) || string.IsNullOrEmpty(p)) continue;
-					if (string.Equals(e, p, StringComparison.Ordinal)) continue;
+
+					// EN ile PT'nin AYNI oldugu hucre ATLANMAZ.
+					//
+					// Atlarsak yama ikinci kez calistirildiginda kendi yazdigini
+					// goremez hale geliyor. Birinci kosu, cevirisi olmayan hucreye
+					// Ingilizce yaziyor (dat-import'taki karara bakin). Ikinci
+					// kosuda o hucrede artik EN == PT oldugu icin buradan eleniyor,
+					// birime hic donusmuyor ve bellege sonradan eklenen ceviri o
+					// hucreye BIR DAHA ULASAMIYOR.
+					//
+					// Olculdu: 19 Eylul istemcisinde arka arkaya iki kosu, ikincide
+					// 103.736 birimi 102.859'a dusurdu. Aradaki 877 hucrenin bir
+					// kismi zararsizdi (cevirisi Ingilizcesiyle ayni olan adlar),
+					// ama 91'i gercekten cevirisi bekleyen hucreydi ve erisilemez
+					// hale gelmisti.
+					//
+					// Kolon TESPITI hala EN != PT kuralini kullaniyor
+					// (TableResolver.Count), yani gercekten yerellestirilmemis bir
+					// kolon yine kolon sayilmiyor. Burada elenen tek sey, zaten
+					// kabul edilmis bir kolonun icindeki tekil hucrelerdi.
+
 					writer.WriteLine(JsonSerializer.Serialize(new TranslationUnit {
 						Id = $"{table}|{col.Offset}|{r}",
 						Table = table, Off = col.Offset, Row = r,
